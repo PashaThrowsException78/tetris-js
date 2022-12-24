@@ -1,0 +1,157 @@
+body {
+    background-color: #864600;
+}
+
+h1 {
+    text-effect: outline;
+}
+
+
+
+
+.text-centered {
+    margin-top: 55px;
+    font-size: 86px;
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+#registration {
+    position: center;
+    color: lightblue;
+    font-family: "Arial Black";
+    font-style: oblique;
+    font-size: 20px;
+}
+
+#registration input[type="submit"] {
+    margin-top: 12px;
+    padding: 0px 25px;
+    font-size: 45px;
+    color: white;
+    border: 0px;
+}
+
+
+#registration input[type="submit"]:focus, button:focus, input[type="submit"]:active, button:active  {
+    outline: none;
+    border: 0;
+}
+
+#registration input[type="text"] {
+    height: 30px;
+    width: 80%;
+    positon: relative;
+    margin-top: 7px;
+    text-align: center;
+    font-size: 21px;
+    font-style: oblique;
+    font-family: "Arial";
+    color: #9ba143;
+    border: 1px solid rgba(0, 0, 0, .49);
+}
+
+#registration input[type="text"]:focus {
+    border: 1px solid #52A8EC;
+    outline: 0 none;
+}
+
+#form {
+    text-align: center;
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -80px;
+    color: black !important;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 30px;
+    color: #ff4444;
+    border: 0px;
+}
+
+#login-button {
+    color: black !important;
+}
+
+#reset {
+    font-size: 52px;
+}
+
+
+
+.table {
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    width: 65%;
+    height: 40px;
+    border-collapse: collapse;
+    background: white;
+    font-family: Arial;
+    font-style: italic;
+    margin: auto;
+    font-size: 18px;
+    color: #4c4ca8;
+}
+
+table, th, td {
+    border: 3px solid lightseagreen;
+}
+
+#result {
+    font-size: 25px;
+}
+
+.block-game {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+
+
+#player, #score, #level {
+    display: inline;
+}
+
+canvas {
+    border: 3px solid;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: -40px;
+    width: 400px;
+    height: 520px;
+    overflow-x: hidden;
+    font-family: "Arial";
+}
+
+#tetris {
+    margin-top: -40px;
+    color: #ff4d0e;
+}
+
+#login-button {
+    color: black;
+
+}
+.login-button {
+    font-size: 52px;
+    color: black;
+}
+

@@ -1,0 +1,12 @@
+{
+  "name": "lr1",
+  "version": "1.0.0",
+  "description": "tetris",
+  "main": "index.html",
+  "author": "Pavel",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "browser-sync": "^2.26.12"
+  }
+}

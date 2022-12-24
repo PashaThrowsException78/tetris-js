@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h1 class="text-centered">Tetris</h1>
+
+<div id="registration">
+    <form action="index.html" id="form">
+        <label id="registration-text">
+            Enter your name:<br>
+            <input id="login-name" type="text" placeholder="User name" autofocus autocomplete="off"/><br>
+            <input id="login-button" type="submit" value="Start">
+        </label>
+    </form>
+</div>
+
+<div id="tetris-context">
+    <div class="block-game">
+        <div class="note">
+            <h2>Player:
+                <div id="player"></div>
+            </h2>
+            <h2>Level:
+                <div id="level">1</div>
+            </h2>
+            <h2>Score:
+                <div id="score">0</div>
+            </h2>
+            <h2>Next tetramino:</h2>
+            <canvas aling="left" id="nextFigure" width="100" height="100"></canvas>
+            <h3> Control keys:<br>
+                <i>down arrow</i> - move the shape down<br>
+                <i>up arrow</i> - rotate the shape<br>
+                <i>left arrow</i> - move the shape to the left<br>
+                <i>right arrow</i> - move the shape to the right<br>
+                <i>spacebar</i> - "drop" the figure
+            </h3>
+        </div>
+        <div>
+            <canvas id="tetris" width="250" height="500"></canvas>
+        </div>
+    </div>
+</div>
+
+<div id="high-score" class="table">
+    <h2>Game over!</h2>
+    <div id="result">Your result: <span id="count-end"></span></div>
+    <h2>High score table</h2>
+    <table id="score-table">
+        <thead>
+        <tr>
+            <th>Score</th>
+            <th>Player name</th>
+        </tr>
+        </thead>
+        <tbody id="data-table">
+        </tbody>
+    </table>
+    <button id="reset">Play</button>
+</div>
+
+<script src="js/game.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
